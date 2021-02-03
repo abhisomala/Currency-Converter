@@ -46,7 +46,7 @@ if __name__ == '__main__':
             print("Invalid code")
     base_currency = CURRENCY_CODES[base_currency_code]
 
-    print("Choose a target currency among our supported currencies:")
+    print("What currency do you want to convert it into? :")
     while True:
         for code, currency in CURRENCY_CODES.items():
             print("code {}: target {}".format(code, currency))
